@@ -1,0 +1,184 @@
+{
+  "title": "Gestione delle richieste di ferie",
+  "description": "Prototipo navigabile per consultare le richieste del team, verificare le assenze nel calendario mensile e inserire nuove richieste. Dati interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle richieste e delle assenze del mese.",
+      "metrics": [
+        {
+          "label": "Richieste in attesa",
+          "value": "3"
+        },
+        {
+          "label": "Approvate questo mese",
+          "value": "5"
+        },
+        {
+          "label": "Giorni di ferie pianificati",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Membro",
+        "Data inizio",
+        "Data fine",
+        "Giorni",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "04/06/2025",
+          "06/06/2025",
+          "3",
+          "In attesa"
+        ],
+        [
+          "Vela",
+          "09/06/2025",
+          "10/06/2025",
+          "2",
+          "Approvata"
+        ],
+        [
+          "Nubi",
+          "16/06/2025",
+          "18/06/2025",
+          "3",
+          "Approvata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste ferie",
+      "description": "Elenco consultabile e filtrabile delle richieste del team, con possibilità di registrare una nuova richiesta.",
+      "metrics": [
+        {
+          "label": "Totale richieste",
+          "value": "8"
+        },
+        {
+          "label": "In attesa",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Membro",
+        "Data inizio",
+        "Data fine",
+        "Giorni",
+        "Motivo",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "04/06/2025",
+          "06/06/2025",
+          "3",
+          "Riposo",
+          "In attesa"
+        ],
+        [
+          "Vela",
+          "09/06/2025",
+          "10/06/2025",
+          "2",
+          "Impegni personali",
+          "Approvata"
+        ],
+        [
+          "Nubi",
+          "16/06/2025",
+          "18/06/2025",
+          "3",
+          "Riposo",
+          "Approvata"
+        ],
+        [
+          "Timo",
+          "20/06/2025",
+          "20/06/2025",
+          "1",
+          "Visita inventata",
+          "In attesa"
+        ],
+        [
+          "Menta",
+          "23/06/2025",
+          "25/06/2025",
+          "3",
+          "Viaggio",
+          "Rifiutata"
+        ]
+      ],
+      "form": [
+        "Membro",
+        "Data inizio",
+        "Data fine",
+        "Giorni",
+        "Motivo",
+        "Stato"
+      ]
+    },
+    {
+      "id": "calendario",
+      "title": "Calendario mensile",
+      "description": "Vista mensile delle assenze pianificate. Le giornate sono raggruppate per membro e stato.",
+      "metrics": [
+        {
+          "label": "Mese visualizzato",
+          "value": "Giugno 2025"
+        },
+        {
+          "label": "Membri con assenze",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Membro",
+        "Data inizio",
+        "Data fine",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "04/06/2025",
+          "06/06/2025",
+          "In attesa"
+        ],
+        [
+          "Vela",
+          "09/06/2025",
+          "10/06/2025",
+          "Approvata"
+        ],
+        [
+          "Nubi",
+          "16/06/2025",
+          "18/06/2025",
+          "Approvata"
+        ],
+        [
+          "Timo",
+          "20/06/2025",
+          "20/06/2025",
+          "In attesa"
+        ],
+        [
+          "Menta",
+          "23/06/2025",
+          "25/06/2025",
+          "Rifiutata"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
